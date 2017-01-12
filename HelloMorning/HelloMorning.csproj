@@ -32,10 +32,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CoreAssets\Globals\Data\AlarmType.cs" />
     <Compile Include="CoreAssets\Shared\Tools\AlarmBuilder.cs" />
-    <Compile Include="CoreAssets\Shared\Tools\AlarmReader.cs" />
-    <Compile Include="CoreAssets\Shared\Tools\AlarmTable.cs" />
-    <Compile Include="CoreAssets\Shared\Tools\AlarmLoader.cs" />
     <Compile Include="CoreAssets\Shared\Tools\EngineTools\EngineLoader.cs" />
+    <Compile Include="CoreAssets\Shared\Tools\AlarmCheck.cs" />
+    <Compile Include="CoreAssets\Shared\Tools\AlarmControl.cs" />
+    <Compile Include="CoreAssets\Shared\Tools\AlarmIO.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CoreAssets\" />
