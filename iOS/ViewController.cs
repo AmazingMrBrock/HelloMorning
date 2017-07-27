@@ -20,8 +20,8 @@ namespace HelloMorning.iOS
 			Button.AccessibilityIdentifier = "myButton";
 			Button.TouchUpInside += delegate
 			{
-				var title = string.Format("{0} clicks!", myClass.newClick());
-				Button.SetTitle(title, UIControlState.Normal);
+				//var title = string.Format("{0} clicks!", myClass.newClick());
+				myClass.newClick();
 			};
 		}
 

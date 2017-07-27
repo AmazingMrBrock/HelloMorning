@@ -4,7 +4,7 @@ namespace HelloMorning
 	public class AlarmBuilder
 	{
 
-		bool repeat = 0;
+		//bool repeat = 0;
 		DateTime alarmTime;
 
 

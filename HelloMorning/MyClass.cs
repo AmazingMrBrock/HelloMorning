@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Net;
+using System.IO;
+
 namespace HelloMorning
 {
 	public class MyClass
@@ -9,11 +12,20 @@ namespace HelloMorning
 		{
 		}
 
-		public int newClick()
+		public void newClick()
 		{
-			int oneClick = 1;
-			count = count + oneClick;
-			return count;
+			//string filePath = "/Users/b/Projects/HelloMorning/HelloMorning/CoreAssets/GameTest/EmptyHtmlFile.html";
+
+			//System.IO.FileInfo file = new FileInfo(filePath);
+			//if (file.Exists)
+			//{
+			//	Response.ClearContent();
+			//	Response.AddHeader("Content-Disposition", "attachment; filename=" + file.Name);
+			//	Response.AddHeader("Content-Length", file.Length.ToString());
+			//	Response.ContentType = "text/plain";
+			//	Response.TransmitFile(file.FullName);
+			//	Response.End();
+			//}
 		}
 	}
 }
